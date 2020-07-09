@@ -8,5 +8,5 @@
 
 #### 7/9 자연어 처리 07_09.ipynb
 - rhinoMorph 설치 및 간단한 메소드
-    - .startRhino(), .onlyMorph_list(), wholeResult_list() 
+    - .startRhino(), .onlyMorph_list(), wholeResult_list()  
         객체              형태소           형태소, 품사
