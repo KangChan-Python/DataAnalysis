@@ -11,4 +11,8 @@ import scrapy
 class NaverblogItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    title = scrapy.Field()
+    link = scrapy.Field()
+    context = scrapy.Field()
+    pageurl = scrapy.Field()
+    index =scrapy.Field()

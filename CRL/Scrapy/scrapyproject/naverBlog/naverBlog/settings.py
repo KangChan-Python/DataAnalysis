@@ -14,15 +14,17 @@ BOT_NAME = 'naverBlog'
 SPIDER_MODULES = ['naverBlog.spiders']
 NEWSPIDER_MODULE = 'naverBlog.spiders'
 
-
+LOG_FILE="log2.txt"
+FEED_EXPORT_ENCODING = 'utf-8'
+# LOG_FILE="log7.txt"
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'naverBlog (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False # 크롤링을 원치 않은 사이트를 크롤링용
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-#CONCURRENT_REQUESTS = 32
+CONCURRENT_REQUESTS = 16
 
 # Configure a delay for requests for the same website (default: 0)
 # See https://doc.scrapy.org/en/latest/topics/settings.html#download-delay
